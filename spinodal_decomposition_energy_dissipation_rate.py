@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# E-mail contact: natalia.nebulishvili@tum.de
 #
 # This program is free software: you can redistribute it and/or
 # modify it under the terms of the GNU General Public License, either
@@ -32,6 +31,7 @@ from scipy.optimize import curve_fit
 import os
 import sys
 
+#Objective functions for fitting
 def objective(x, a, b):
 	return b*(x**a)
 

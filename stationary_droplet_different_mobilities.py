@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# E-mail contact: natalia.nebulishvili@tum.de
 #
 # This program is free software: you can redistribute it and/or
 # modify it under the terms of the GNU General Public License, either
@@ -236,8 +235,6 @@ for m_ind in range(4):
         # Visualization
         if ( (time % plotEveryN == 0) & (liveUpdate | saveVTK | savePlot) & (time > skipFirstN) ):
             if ( liveUpdate | savePlot ):
-
-                #fig2, axrho = pyplot.subplots(1)
                 gs = gridspec.GridSpec(1, 4)
                 axrho = pyplot.subplot(gs[0, :2])
                 axc = pyplot.subplot(gs[0, 2:])

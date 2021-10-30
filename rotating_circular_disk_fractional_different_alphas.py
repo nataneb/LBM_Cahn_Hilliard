@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# E-mail contact: natalia.nebulishvili@tum.de
 #
 # This program is free software: you can redistribute it and/or
 # modify it under the terms of the GNU General Public License, either
@@ -154,12 +153,7 @@ for i in range(size(alpha)):
     fin = feq.copy()
     fpost = feq.copy()
 
-
-    Err1=0
-    Err2=0
-    #print("max fin", amax(fin))
-    #print("max feq", amax(feq))
-    #sourceFile = open('demo.txt', 'w')
+    
     ###### Main time loop ##########################################################
     final_time=maxIterations
     for time in range(maxIterations):

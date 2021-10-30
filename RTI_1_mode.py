@@ -1,14 +1,13 @@
 #!/usr/bin/python
-# E-mail contact: natalia.nebulishvili@tum.de
 #
 # This program is free software: you can redistribute it and/or
 # modify it under the terms of the GNU General Public License, either
 # version 3 of the License, or (at your option) any later version.
 #
-#This program is the realization of the Rayleigh-Taylor instability test case via the LBM
+#This program is the realization of the Rayleigh-Taylor instability test case with one mode via the LBM
 #for Cahn-Hilliard equation provided by  Zheng et al. (2015)
 #
-# Rayleigh-Taylor instability
+# Rayleigh-Taylor instability (one mode)
 #
 # D2Q9 Stencil with enumeration
 #
@@ -308,7 +307,6 @@ for time in range(maxIterations):
             axfi.clear()
             im1=axfi.imshow(rho.transpose(), cmap=cm.jet, interpolation='none',origin='lower', vmin = rho2, vmax = rho1)  # vmin=0., vmax=0.1)
             axfi.set_title("Density")
-            # pyplot.colorbar(im1, ax=axfi,orientation='horizontal')
             pyplot.savefig(prefix4 + str(time +1).zfill(4) + ".png", dpi=200)
             pyplot.close()
 
