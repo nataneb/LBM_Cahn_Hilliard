@@ -6,7 +6,7 @@ The repository includes the realizaiton of lattice Boltzmann methods for classic
 Classical Cahn-Hilliard equation is coupled with Navier-Stokes equations and two lattice Boltzmann methods are presented for Cahn-Hilliard equation and flow field respectively.
 
 ## Time-fractional Cahn-Hilliard equation
-A novel lattice Boltzmann method fro time-fractional version of Cahn-Hilliard equation is proposed by Liang et al. and the validation is done as for a standalone equation
+A novel lattice Boltzmann method fro time-fractional version of Cahn-Hilliard equation is proposed by Liang et al. and the validation is done as for a standalone equation.
 
 
 ## References
