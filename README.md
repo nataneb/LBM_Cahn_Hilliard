@@ -1,6 +1,6 @@
 # LBMs for Cahn-Hilliard Type Equations
 
-The repository includes the realizaiton of lattice Boltzmann methods for classical and time-fractional Cahn-Hilliard equations and different test cases for the validation of the methods. The code is based on the the two papers in the references and is also the extension of the software developed at char of Numerical Mathematics at Technical Univeristy of Munich.
+The repository includes the realizaiton of lattice Boltzmann methods for classical and time-fractional Cahn-Hilliard equations and different test cases for the validation of the methods. The code is based on the the two papers in the references and is also the extension of the software developed at the chair of Numerical Mathematics at Technical Univeristy of Munich. The code is a part of the master's thesis done at chair of Numerical Methematics at the same university.
 
 ## Classical Cahn-Hilliard Equation
 Classical Cahn-Hilliard equation is coupled with Navier-Stokes equations and two lattice Boltzmann methods are presented for Cahn-Hilliard equation and flow field respectively.
