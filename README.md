@@ -1,4 +1,4 @@
-# LBMs for Cahn-Hilliard Type Equations
+# LBMs for Cahn-Hilliard Type Systems
 
 The repository includes the realizaiton of lattice Boltzmann methods for classical and time-fractional Cahn-Hilliard equations and different test cases for the validation of the methods. The code is based on the the two papers in the references and is also the extension of the software developed at the chair of Numerical Mathematics at Technical Univeristy of Munich. The code is a part of the master's thesis done at chair of Numerical Methematics at the same university and includes also the parts which where done before just for completeness and for being able to run it.
 
